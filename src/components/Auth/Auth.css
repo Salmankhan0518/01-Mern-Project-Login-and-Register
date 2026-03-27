@@ -47,6 +47,8 @@
   font-size: 14px;
   outline: none;
   transition: 0.25s ease;
+  background-color: #f7f3f3;   /* 👈 add this */
+  color: #000; 
 }
 
 /* Focus effect */
