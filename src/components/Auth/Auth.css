@@ -1,0 +1,62 @@
+/* Page center */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+/* Form box */
+.auth-form {
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+.auth-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+  font-size: 22px;
+}
+
+/* Input group */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+/* Label */
+.input-label {
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #555;
+}
+
+/* Input */
+.input-text {
+  padding: 9px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.25s ease;
+}
+
+/* Focus effect */
+.input-text:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 4px rgba(79, 70, 229, 0.25);
+}
+
+/* Placeholder styling */
+.input-text::placeholder {
+  color: #aaa;
+  font-size: 13px;
+}
